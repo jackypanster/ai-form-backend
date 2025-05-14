@@ -1,0 +1,26 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Security Guidelines
+
+## API Key Management
+- LLM API keys must be stored as environment variables
+- Never commit API keys to version control
+- Backend must securely handle all API key usage
+
+## Input Validation
+- All user inputs must be validated using Pydantic models
+- Implement rate limiting for API endpoints
+- Validate content length and field count to prevent abuse
+
+## PII Handling
+- Be cautious with Personally Identifiable Information (PII)
+- Implement proper data sanitization
+- Follow data protection best practices
+
+## Environment Configuration
+- Use secure environment variables for sensitive configuration
+- Keep production and development configurations separate
+- Follow the principle of least privilege

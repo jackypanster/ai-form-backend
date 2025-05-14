@@ -1,0 +1,24 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Project Structure Guide
+
+This is an AI Form Backend project that provides backend services for form processing and management.
+
+## Documentation Structure
+The project documentation is organized in the following files:
+
+- [architecture.md](mdc:docs/architecture.md) - Overall system architecture and design principles
+- [design.md](mdc:docs/design.md) - Detailed design specifications (English)
+- [design.zh.md](mdc:docs/design.zh.md) - Detailed design specifications (Chinese)
+
+Implementation details are split across multiple parts:
+- [impl.part1.md](mdc:docs/impl.part1.md)
+- [impl.part2.md](mdc:docs/impl.part2.md)
+- [impl.part3.md](mdc:docs/impl.part3.md)
+- [impl.part4.md](mdc:docs/impl.part4.md)
+
+## Docker Support
+The project includes [Dockerfile](mdc:Dockerfile) for containerized deployment.
